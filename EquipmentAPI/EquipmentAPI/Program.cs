@@ -1,3 +1,5 @@
+using EquipmentAPI.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,16 +18,37 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/createequipment", (string name, string category, string status, string location) => { ... })
+var equipments = new List<Equipment>();
+
+app.MapPost("/createequipment", (string name, string category, string status, string location) =>
+{
+    var equipment = new Equipment(name, category, status, location);
+
+
+    equipments.Add(equipment);
+
+    return Results.Created($"/getequipment/{equipment.Id}", equipment);
+})
    .WithName("CreateEquipment")
    .WithOpenApi();
 
 
-app.MapGet("/getequipments", () => { ... })
+app.MapGet("/getequipments", () => 
+{ 
+    return Results.Ok(equipments);
+})
    .WithName("GetEquipments")
    .WithOpenApi();
 
-app.MapGet("/getequipment/{id}", (int id) => { ... })
+app.MapGet("/getequipment/{id}", (int id) => 
+{
+ var equipment = equipments.FirstOrDefault(e => e.Id == id);
+    if (equipment == null)
+    {
+        return Results.NotFound();
+    }
+    return Results.Ok(equipment);
+})
    .WithName("GetEquipmentById")
    .WithOpenApi();
 
