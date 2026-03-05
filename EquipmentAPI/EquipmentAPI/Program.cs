@@ -20,37 +20,53 @@ app.UseHttpsRedirection();
 
 var equipments = new List<Equipment>();
 
-app.MapPost("/createequipment", (string name, string category, string status, string location) =>
+app.MapPost("/equipments", (CreateEquipmentDto dto) =>
 {
-    var equipment = new Equipment(name, category, status, location);
-
-
+    var equipment = new Equipment(dto.Name, dto.Category, dto.Status, dto.Location);
     equipments.Add(equipment);
-
-    return Results.Created($"/getequipment/{equipment.Id}", equipment);
-})
-   .WithName("CreateEquipment")
-   .WithOpenApi();
-
-
-app.MapGet("/getequipments", () => 
-{ 
-    return Results.Ok(equipments);
-})
-   .WithName("GetEquipments")
-   .WithOpenApi();
-
-app.MapGet("/getequipment/{id}", (int id) => 
-{
- var equipment = equipments.FirstOrDefault(e => e.Id == id);
-    if (equipment == null)
+    return Results.Created($"/equipments/{equipment.Id}", new EquipmentResponseDto
     {
-        return Results.NotFound();
-    }
-    return Results.Ok(equipment);
+        Id = equipment.Id,
+        Name = equipment.Name,
+        Category = equipment.Category,
+        Status = equipment.Status,
+        Location = equipment.Location
+    });
 })
-   .WithName("GetEquipmentById")
-   .WithOpenApi();
+.WithName("CreateEquipment")
+.WithOpenApi();
+
+app.MapGet("/equipments", () =>
+{
+    var result = equipments.Select(s => new EquipmentResponseDto
+    {
+        Id = s.Id,
+        Name = s.Name,
+        Category = s.Category,
+        Status = s.Status,
+        Location = s.Location
+    });
+    return Results.Ok(result);
+})
+.WithName("GetEquipments")
+.WithOpenApi();
+
+app.MapGet("/equipments/{id:int:min(1)}", (int id) =>
+{
+    var equipment = equipments.FirstOrDefault(s => s.Id == id);
+    if (equipment == null) return Results.NotFound();
+
+    return Results.Ok(new EquipmentResponseDto
+    {
+        Id = equipment.Id,
+        Name = equipment.Name,
+        Category = equipment.Category,
+        Status = equipment.Status,
+        Location = equipment.Location
+    });
+})
+.WithName("GetEquipmentById")
+.WithOpenApi();
 
 
 app.Run();
