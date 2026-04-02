@@ -1,8 +1,10 @@
-﻿namespace EquipmentAPI.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace EquipmentAPI.Models
 {
     public class Equipment
     {
-        private static int _nextId = 1; // simple auto-increment for demo purposes
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // simple auto-increment for demo purposes
         public int Id { get; set; }              // server assigns
         public string Name { get; set; } = "";   // required
         public string Category { get; set; }             // simple field
@@ -11,7 +13,6 @@
 
         public Equipment(string name, string category, string status, string location)
         {
-            Id = _nextId++; // auto-assign unique ID
             Name = name;
             Category = category;
             Status = status;
