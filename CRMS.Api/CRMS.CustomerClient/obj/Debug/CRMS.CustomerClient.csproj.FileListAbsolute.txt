@@ -1,0 +1,16 @@
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.csproj.AssemblyReference.cache
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.Forms.CreateBookingForm.resources
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.Forms.CustomerDashboardForm.resources
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.Forms.LoginForm.resources
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.Forms.RegisterForm.resources
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.Properties.Resources.resources
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.csproj.GenerateResource.cache
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.csproj.CoreCompileInputs.cache
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\CRMS.CustomerClient.exe.config
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\CRMS.CustomerClient.exe
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\CRMS.CustomerClient.pdb
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.Cus.B791551C.Up2Date
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.exe
+C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.pdb

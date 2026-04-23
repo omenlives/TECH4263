@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\auth\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\auth\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\dtos\\bookingdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\dtos\\bookingdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\dtos\\cardtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\dtos\\cardtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms\\crms\\crms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{635B892E-A0BC-4C01-9DEB-FCC685214665}|CRMS\\CRMS.csproj|solutionrelative:crms\\crms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\appsettings.json",
+              "RelativeDocumentMoniker": "CRMS\\appsettings.json",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\appsettings.json*",
+              "RelativeToolTip": "CRMS\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T17:41:36.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CRMS\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\Booking.cs*",
+              "RelativeToolTip": "CRMS\\Models\\Booking.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:24:47.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CRMS\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\Car.cs*",
+              "RelativeToolTip": "CRMS\\Models\\Car.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:24:35.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CRMS\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Models\\User.cs*",
+              "RelativeToolTip": "CRMS\\Models\\User.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:24:26.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingDtos.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\BookingDtos.cs",
+              "RelativeDocumentMoniker": "CRMS\\DTOs\\BookingDtos.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\BookingDtos.cs*",
+              "RelativeToolTip": "CRMS\\DTOs\\BookingDtos.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:24:06.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarDtos.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\CarDtos.cs",
+              "RelativeDocumentMoniker": "CRMS\\DTOs\\CarDtos.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\CarDtos.cs*",
+              "RelativeToolTip": "CRMS\\DTOs\\CarDtos.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:23:41.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "CRMS\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\DTOs\\AuthDtos.cs*",
+              "RelativeToolTip": "CRMS\\DTOs\\AuthDtos.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:23:20.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CRMS\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Data\\AppDbContext.cs*",
+              "RelativeToolTip": "CRMS\\Data\\AppDbContext.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:22:58.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasicAuthenticationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Auth\\BasicAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "CRMS\\Auth\\BasicAuthenticationHandler.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Auth\\BasicAuthenticationHandler.cs*",
+              "RelativeToolTip": "CRMS\\Auth\\BasicAuthenticationHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:22:40.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CRMS",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\CRMS.csproj",
+              "RelativeDocumentMoniker": "CRMS\\CRMS.csproj",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\CRMS.csproj*",
+              "RelativeToolTip": "CRMS\\CRMS.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-26T17:21:19.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Program.cs",
+              "RelativeDocumentMoniker": "CRMS\\Program.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS\\CRMS\\Program.cs*",
+              "RelativeToolTip": "CRMS\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T17:20:06.819Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

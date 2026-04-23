@@ -1,32 +1,43 @@
-﻿using EquipmentAPI.Data;
-using EquipmentAPI.Models;
+﻿using EquipmentAPI.Models;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Data.SqlClient;
+using EquipmentAPI.Data;
+using Microsoft.AspNetCore.Authentication;
+using EquipmentAPI.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("basic", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
+        Scheme = "basic",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description = "Enter your username and password"
+    });
+}); builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAuthentication("BasicAuth")
+    .AddScheme<AuthenticationSchemeOptions, BasicAuthHandler>("BasicAuth", null);
+
+builder.Services.AddAuthorization();
+
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
+app.UseAuthentication();
+app.UseAuthorization();
 
-
-// POST /students
-app.MapPost("/equipments", async (CreateEquipmentDto dto, AppDbContext context) =>
-{
+app.MapPost("/equipments", async (CreateEquipmentDto dto, AppDbContext context) => {
     var equipment = new Equipment(dto.Name, dto.Category, dto.Status, dto.Location);
 
     context.Equipments.Add(equipment);
@@ -40,13 +51,14 @@ app.MapPost("/equipments", async (CreateEquipmentDto dto, AppDbContext context) 
         Status = dto.Status,
         Location = dto.Location
     });
-}).WithName("CreateEquipment").WithOpenApi();
 
-app.MapGet("/equipments", async (AppDbContext context) =>
-{
+})
+   .WithName("CreateEquipment")
+   .WithOpenApi();
+
+
+app.MapGet("/equipments", async (AppDbContext context) => {
     var equipments = await context.Equipments.ToListAsync();
-
-
 
     return Results.Ok(equipments.Select(s => new EquipmentResponseDto
     {
@@ -56,9 +68,11 @@ app.MapGet("/equipments", async (AppDbContext context) =>
         Status = s.Status,
         Location = s.Location
     }));
-}).WithName("GetEquipments").WithOpenApi();
 
-// GET /equipments/{id}
+})
+   .WithName("GetEquipments")
+   .WithOpenApi();
+
 app.MapGet("/equipments/{id:int:min(1)}", async (int id, AppDbContext context) =>
 {
     var equipment = await context.Equipments.FindAsync(id);
@@ -75,4 +89,6 @@ app.MapGet("/equipments/{id:int:min(1)}", async (int id, AppDbContext context) =
         Location = equipment.Location
     });
 }).WithName("GetEquipmentById").WithOpenApi();
+
+
 app.Run();
