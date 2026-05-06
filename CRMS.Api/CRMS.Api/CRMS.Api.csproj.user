@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.Api\Properties\PublishProfiles\site64960-WebDeploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\jspri\source\repos\TECH4263\CRMS.API\CRMS.Api\Properties\PublishProfiles\site64960-WebDeploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

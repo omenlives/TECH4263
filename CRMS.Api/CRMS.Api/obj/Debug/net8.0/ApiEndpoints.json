@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
     "RelativePath": "auth/register",
     "HttpMethod": "POST",
     "IsController": false,
@@ -24,7 +24,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_14",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_17",
     "RelativePath": "bookings",
     "HttpMethod": "POST",
     "IsController": false,
@@ -47,7 +47,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_20",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_23",
     "RelativePath": "bookings",
     "HttpMethod": "GET",
     "IsController": false,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_18",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_21",
     "RelativePath": "bookings/{id:int}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -87,7 +87,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_26",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_29",
     "RelativePath": "bookings/{id:int}/active",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -110,7 +110,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_22",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_25",
     "RelativePath": "bookings/{id:int}/approve",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -133,7 +133,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_28",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_31",
     "RelativePath": "bookings/{id:int}/complete",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -156,7 +156,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_24",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_27",
     "RelativePath": "bookings/{id:int}/reject",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -179,7 +179,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_16",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_19",
     "RelativePath": "bookings/my",
     "HttpMethod": "GET",
     "IsController": false,
@@ -196,7 +196,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_9",
     "RelativePath": "cars",
     "HttpMethod": "GET",
     "IsController": false,
@@ -213,7 +213,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_8",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_11",
     "RelativePath": "cars",
     "HttpMethod": "POST",
     "IsController": false,
@@ -236,7 +236,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_7",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
     "RelativePath": "cars/{id:int}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -259,7 +259,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
     "RelativePath": "cars/{id:int}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -287,7 +287,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_12",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
     "RelativePath": "cars/{id:int}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -310,7 +310,58 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "debug/cars",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DebugCars"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
+    "RelativePath": "debug/database",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DebugDatabase"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "RelativePath": "debug/users",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DebugUsers"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_7",
     "RelativePath": "users",
     "HttpMethod": "GET",
     "IsController": false,

@@ -46,9 +46,10 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(355, 36);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(302, 27);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(118, 16);
+            this.lblTitle.Size = new System.Drawing.Size(231, 29);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Register Customer";
             this.lblTitle.Click += new System.EventHandler(this.label1_Click);

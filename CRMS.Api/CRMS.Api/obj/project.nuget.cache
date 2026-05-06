@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXt3T1oWY+c=",
+  "dgSpecHash": "zVMGBUTnNOw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.Api\\CRMS.Api.csproj",
+  "projectFilePath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.API\\CRMS.Api\\CRMS.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jspri\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jspri\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

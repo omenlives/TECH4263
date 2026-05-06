@@ -87,7 +87,7 @@ namespace CRMS.CustomerClient.Forms
             message += "Category: " + selectedCar.Category + Environment.NewLine;
             message += "Daily Rate: $" + selectedCar.DailyRate + Environment.NewLine;
             message += "Licence Plate: " + selectedCar.LicencePlate + Environment.NewLine;
-            message += "Colour: " + selectedCar.Color + Environment.NewLine;
+            message += "Color: " + selectedCar.Color + Environment.NewLine;
             message += "Status: " + selectedCar.Status;
 
             MessageBox.Show(message, "Car Details");

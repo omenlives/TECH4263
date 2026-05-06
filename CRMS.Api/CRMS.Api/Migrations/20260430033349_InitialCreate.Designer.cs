@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRMS.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260426192008_InitialCreate")]
+    [Migration("20260430033349_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -80,7 +80,7 @@ namespace CRMS.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Colour")
+                    b.Property<string>("Color")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

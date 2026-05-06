@@ -40,7 +40,7 @@ namespace CRMS.CustomerClient.Services
 
             if (!response.IsSuccessStatusCode)
             {
-                throw new Exception(result);
+                throw new Exception("Status Code: " + (int)response.StatusCode + " - " + result);
             }
 
             return result;

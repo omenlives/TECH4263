@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\createbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\createbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,104 +58,126 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Program.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Program.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Program.cs",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:38:01.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T17:28:01.082Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:27:37.282Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
               "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeToolTip": "CRMS.EnterpriseClient\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wDoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:34:52.564Z",
+              "WhenOpened": "2026-05-05T19:34:26.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs [Design]",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Form1.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
+              "RelativeToolTip": "CRMS.EnterpriseClient\\Models\\Booking.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:30:54.919Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-05T19:24:44.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "EnterpriseDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
+              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
+              "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwLoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:14:25.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnterpriseDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]",
               "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:25:08.342Z",
+              "WhenOpened": "2026-05-05T19:13:34.118Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Services\\ApiClient.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Services\\ApiClient.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Services\\ApiClient.cs",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Services\\ApiClient.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
+              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs [Design]",
+              "RelativeToolTip": "CRMS.EnterpriseClient\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:24:44.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T19:13:32.174Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\User.cs",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CustomerDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:24:30.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T03:05:25.01Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateBookingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CreateBookingForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\CreateBookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T03:05:02.574Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Car.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\Car.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Car.cs",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Models\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Title": "CustomerDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:23:39.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\Models\\Booking.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:23:32.321Z",
+              "WhenOpened": "2026-04-30T01:05:35.009Z",
               "EditorCaption": ""
             }
           ]

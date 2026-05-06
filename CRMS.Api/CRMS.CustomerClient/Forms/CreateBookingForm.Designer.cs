@@ -36,30 +36,31 @@
             this.dtpReturn = new System.Windows.Forms.DateTimePicker();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblCarLabeling = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(352, 9);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(329, 9);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(100, 16);
+            this.lblTitle.Size = new System.Drawing.Size(194, 29);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Create Booking";
             // 
             // lblCarInfo
             // 
             this.lblCarInfo.AutoSize = true;
-            this.lblCarInfo.Location = new System.Drawing.Point(126, 110);
+            this.lblCarInfo.Location = new System.Drawing.Point(342, 141);
             this.lblCarInfo.Name = "lblCarInfo";
-            this.lblCarInfo.Size = new System.Drawing.Size(44, 16);
+            this.lblCarInfo.Size = new System.Drawing.Size(0, 16);
             this.lblCarInfo.TabIndex = 1;
-            this.lblCarInfo.Text = "label1";
             // 
             // lblPickup
             // 
             this.lblPickup.AutoSize = true;
-            this.lblPickup.Location = new System.Drawing.Point(126, 201);
+            this.lblPickup.Location = new System.Drawing.Point(204, 195);
             this.lblPickup.Name = "lblPickup";
             this.lblPickup.Size = new System.Drawing.Size(80, 16);
             this.lblPickup.TabIndex = 2;
@@ -67,15 +68,15 @@
             // 
             // dtpPickup
             // 
-            this.dtpPickup.Location = new System.Drawing.Point(316, 195);
+            this.dtpPickup.Location = new System.Drawing.Point(334, 195);
             this.dtpPickup.Name = "dtpPickup";
-            this.dtpPickup.Size = new System.Drawing.Size(200, 22);
+            this.dtpPickup.Size = new System.Drawing.Size(257, 22);
             this.dtpPickup.TabIndex = 3;
             // 
             // lblReturn
             // 
             this.lblReturn.AutoSize = true;
-            this.lblReturn.Location = new System.Drawing.Point(126, 284);
+            this.lblReturn.Location = new System.Drawing.Point(204, 252);
             this.lblReturn.Name = "lblReturn";
             this.lblReturn.Size = new System.Drawing.Size(78, 16);
             this.lblReturn.TabIndex = 4;
@@ -83,14 +84,14 @@
             // 
             // dtpReturn
             // 
-            this.dtpReturn.Location = new System.Drawing.Point(316, 284);
+            this.dtpReturn.Location = new System.Drawing.Point(334, 246);
             this.dtpReturn.Name = "dtpReturn";
-            this.dtpReturn.Size = new System.Drawing.Size(200, 22);
+            this.dtpReturn.Size = new System.Drawing.Size(257, 22);
             this.dtpReturn.TabIndex = 5;
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(261, 368);
+            this.btnSubmit.Location = new System.Drawing.Point(262, 300);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(124, 23);
             this.btnSubmit.TabIndex = 6;
@@ -100,7 +101,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(436, 368);
+            this.btnClose.Location = new System.Drawing.Point(437, 300);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(124, 23);
             this.btnClose.TabIndex = 7;
@@ -108,11 +109,21 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // lblCarLabeling
+            // 
+            this.lblCarLabeling.AutoSize = true;
+            this.lblCarLabeling.Location = new System.Drawing.Point(230, 141);
+            this.lblCarLabeling.Name = "lblCarLabeling";
+            this.lblCarLabeling.Size = new System.Drawing.Size(52, 16);
+            this.lblCarLabeling.TabIndex = 8;
+            this.lblCarLabeling.Text = "Car Info";
+            // 
             // CreateBookingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCarLabeling);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.dtpReturn);
@@ -139,5 +150,6 @@
         private System.Windows.Forms.DateTimePicker dtpReturn;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label lblCarLabeling;
     }
 }

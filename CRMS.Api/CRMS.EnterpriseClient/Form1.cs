@@ -28,6 +28,7 @@ namespace CRMS.EnterpriseClient
         {
             try
             {
+
                 string username = txtUsername.Text;
                 string password = txtPassword.Text;
 

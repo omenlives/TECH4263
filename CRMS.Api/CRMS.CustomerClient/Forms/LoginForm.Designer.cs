@@ -40,9 +40,10 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(345, 9);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(331, 21);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(100, 16);
+            this.lblTitle.Size = new System.Drawing.Size(197, 29);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Customer Login";
             this.lblTitle.Click += new System.EventHandler(this.label1_Click);
@@ -84,7 +85,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(265, 220);
+            this.btnLogin.Location = new System.Drawing.Point(285, 220);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 5;

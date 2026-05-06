@@ -5,6 +5,45 @@
     "version": "1.0"
   },
   "paths": {
+    "/debug/cars": {
+      "get": {
+        "tags": [
+          "CRMS.Api"
+        ],
+        "operationId": "DebugCars",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/debug/users": {
+      "get": {
+        "tags": [
+          "CRMS.Api"
+        ],
+        "operationId": "DebugUsers",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/debug/database": {
+      "get": {
+        "tags": [
+          "CRMS.Api"
+        ],
+        "operationId": "DebugDatabase",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/auth/register": {
       "post": {
         "tags": [

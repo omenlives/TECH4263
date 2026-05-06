@@ -14,3 +14,4 @@ C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\bin\Debug\Newt
 C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.Cus.B791551C.Up2Date
 C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.exe
 C:\Users\jspri\source\repos\TECH4263\CRMS.Api\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.pdb
+C:\Users\jspri\source\repos\TECH4263\CRMS.API\CRMS.CustomerClient\obj\Debug\CRMS.CustomerClient.exe.config

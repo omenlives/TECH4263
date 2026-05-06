@@ -44,6 +44,76 @@ int GetUserId(ClaimsPrincipal user)
     return int.Parse(user.FindFirstValue(ClaimTypes.NameIdentifier)!);
 }
 
+
+//Debugging
+
+app.MapGet("/debug/cars", async (AppDbContext db) =>
+{
+    try
+    {
+        var cars = await db.Cars.ToListAsync();
+
+        return Results.Ok(cars);
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message);
+    }
+})
+.WithName("DebugCars")
+.WithOpenApi();
+
+app.MapGet("/debug/users", async (AppDbContext db) =>
+{
+    try
+    {
+        var users = await db.Users
+            .Select(u => new
+            {
+                u.Id,
+                u.Username,
+                u.Role,
+                u.PasswordHash
+            })
+            .ToListAsync();
+
+        return Results.Ok(users);
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message);
+    }
+})
+.WithName("DebugUsers")
+.WithOpenApi();
+
+app.MapGet("/debug/database", async (AppDbContext db) =>
+{
+    try
+    {
+        bool canConnect = await db.Database.CanConnectAsync();
+
+        int userCount = await db.Users.CountAsync();
+
+        int carCount = await db.Cars.CountAsync();
+
+        int bookingCount = await db.Bookings.CountAsync();
+
+        return Results.Ok(new
+        {
+            CanConnect = canConnect,
+            Users = userCount,
+            Cars = carCount,
+            Bookings = bookingCount
+        });
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message);
+    }
+})
+.WithName("DebugDatabase")
+.WithOpenApi();
 // --------------------
 // AUTH
 // --------------------
@@ -418,79 +488,90 @@ app.MapPut("/bookings/{id:int}/complete", async (int id, AppDbContext db) =>
 .WithName("CompleteBooking")
 .WithOpenApi();
 
+
 // --------------------
 // SEED DATA
 // --------------------
 
-//using (var scope = app.Services.CreateScope())
-//{
-//    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-//    db.Database.Migrate();
+    db.Database.Migrate();
 
-//    if (!db.Users.Any())
-//    {
-//        db.Users.Add(new User
-//        {
-//            Username = "customer1",
-//            PasswordHash = PasswordHasher.Hash("Password123"),
-//            Role = "Customer",
-//            FullName = "Customer One",
-//            Email = "customer1@test.com",
-//            Phone = "901-555-1111"
-//        });
+    if (!db.Users.Any(u => u.Username == "customer1"))
+    {
+        db.Users.Add(new User
+        {
+            Username = "customer1",
+            PasswordHash = PasswordHasher.Hash("Password123"),
+            Role = "Customer",
+            FullName = "Customer One",
+            Email = "customer1@test.com",
+            Phone = "901-555-1111",
+            CreatedAt = DateTime.Now
+        });
+    }
 
-//        db.Users.Add(new User
-//        {
-//            Username = "staff1",
-//            PasswordHash = PasswordHasher.Hash("Password123"),
-//            Role = "Staff",
-//            FullName = "Staff One",
-//            Email = "staff1@test.com",
-//            Phone = "901-555-2222"
-//        });
+    if (!db.Users.Any(u => u.Username == "staff1"))
+    {
+        db.Users.Add(new User
+        {
+            Username = "staff1",
+            PasswordHash = PasswordHasher.Hash("Password123"),
+            Role = "Staff",
+            FullName = "Staff One",
+            Email = "staff1@test.com",
+            Phone = "901-555-2222",
+            CreatedAt = DateTime.Now
+        });
+    }
 
-//        db.Users.Add(new User
-//        {
-//            Username = "admin1",
-//            PasswordHash = PasswordHasher.Hash("Password123"),
-//            Role = "Admin",
-//            FullName = "Admin One",
-//            Email = "admin1@test.com",
-//            Phone = "901-555-3333"
-//        });
+    if (!db.Users.Any(u => u.Username == "admin1"))
+    {
+        db.Users.Add(new User
+        {
+            Username = "admin1",
+            PasswordHash = PasswordHasher.Hash("Password123"),
+            Role = "Admin",
+            FullName = "Admin One",
+            Email = "admin1@test.com",
+            Phone = "901-555-3333",
+            CreatedAt = DateTime.Now
+        });
+    }
 
-//        await db.SaveChangesAsync();
-//    }
+    await db.SaveChangesAsync();
 
-//    if (!db.Cars.Any())
-//    {
-//        db.Cars.Add(new Car
-//        {
-//            Make = "Toyota",
-//            Model = "Camry",
-//            Year = 2022,
-//            Category = "Sedan",
-//            DailyRate = 55.00m,
-//            LicencePlate = "ABC123",
-//            Color = "Silver",
-//            Status = "Available"
-//        });
 
-//        db.Cars.Add(new Car
-//        {
-//            Make = "Ford",
-//            Model = "Explorer",
-//            Year = 2021,
-//            Category = "SUV",
-//            DailyRate = 85.00m,
-//            LicencePlate = "SUV456",
-//            Color = "Black",
-//            Status = "Available"
-//        });
+if (!db.Cars.Any())
+    {
+        db.Cars.Add(new Car
+        {
+            Make = "Toyota",
+            Model = "Camry",
+            Year = 2022,
+            Category = "Sedan",
+            DailyRate = 55.00m,
+            LicencePlate = "ABC123",
+            Color = "Silver",
+            Status = "Available"
+        });
 
-//        await db.SaveChangesAsync();
-//    }
-//}
+        db.Cars.Add(new Car
+        {
+            Make = "Ford",
+            Model = "Explorer",
+            Year = 2021,
+            Category = "SUV",
+            DailyRate = 85.00m,
+            LicencePlate = "SUV456",
+            Color = "Black",
+            Status = "Available"
+        });
+
+        await db.SaveChangesAsync();
+    }
+}
 
 app.Run();
