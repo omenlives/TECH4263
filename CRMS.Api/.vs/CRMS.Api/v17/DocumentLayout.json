@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.api\\crms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|solutionrelative:crms.api\\crms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|solutionrelative:crms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CRMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.Api\\Program.cs*",
+              "RelativeToolTip": "CRMS.Api\\Program.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T04:11:31.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CRMS.Api",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.API\\CRMS.Api\\CRMS.Api.csproj",
+              "RelativeDocumentMoniker": "CRMS.Api\\CRMS.Api.csproj",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.API\\CRMS.Api\\CRMS.Api.csproj",
+              "RelativeToolTip": "CRMS.Api\\CRMS.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T04:10:49.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\RegisterForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\RegisterForm.cs",
@@ -70,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\LoginForm.cs",
@@ -82,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
@@ -95,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\Booking.cs",
@@ -108,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EnterpriseDashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
@@ -121,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EnterpriseDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
@@ -133,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
@@ -145,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CustomerDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
@@ -157,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreateBookingForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
@@ -169,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CustomerDashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",

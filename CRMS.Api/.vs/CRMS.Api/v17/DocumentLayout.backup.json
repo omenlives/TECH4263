@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.api\\crms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8870F90-A420-48AA-AF9A-475D4654159A}|CRMS.Api\\CRMS.Api.csproj|solutionrelative:crms.api\\crms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\createbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\createbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF4DD432-7886-4400-929C-E8A5789F26E8}|CRMS.CustomerClient\\CRMS.CustomerClient.csproj|solutionrelative:crms.customerclient\\forms\\customerdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\enterprisedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|c:\\users\\jspri\\source\\repos\\tech4263\\crms.api\\crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9C55C5B-68DB-4C5D-A9AE-F8E7E7C9F77A}|CRMS.EnterpriseClient\\CRMS.EnterpriseClient.csproj|solutionrelative:crms.enterpriseclient\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +62,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRMS.Api",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.API\\CRMS.Api\\CRMS.Api.csproj",
+              "RelativeDocumentMoniker": "CRMS.Api\\CRMS.Api.csproj",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.API\\CRMS.Api\\CRMS.Api.csproj",
+              "RelativeToolTip": "CRMS.Api\\CRMS.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T04:10:49.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:28:01.082Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CRMS.CustomerClient\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:27:37.282Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
               "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeToolTip": "CRMS.EnterpriseClient\\Form1.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T19:34:26.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Models\\Booking.cs",
@@ -76,12 +125,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "EnterpriseDashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs*",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs*",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
+              "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAmwLoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T19:14:25.795Z",
@@ -89,19 +138,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "EnterpriseDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs",
-              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]*",
-              "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]",
+              "RelativeToolTip": "CRMS.EnterpriseClient\\EnterpriseDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T19:13:34.118Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.EnterpriseClient\\Form1.cs",
               "RelativeDocumentMoniker": "CRMS.EnterpriseClient\\Form1.cs",
@@ -113,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CustomerDashboardForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CustomerDashboardForm.cs",
@@ -125,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CreateBookingForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jspri\\source\\repos\\TECH4263\\CRMS.Api\\CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
               "RelativeDocumentMoniker": "CRMS.CustomerClient\\Forms\\CreateBookingForm.cs",
