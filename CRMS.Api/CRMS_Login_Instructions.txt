@@ -1,0 +1,182 @@
+# CRMS Login Instructions
+
+## Project Overview
+
+This project is a Car Rental Management System made of three parts:
+
+1. CRMS.Api
+   Backend API used to connect the system to the database.
+
+2. CRMS.CustomerClient
+   Windows Forms App for customer users.
+
+3. CRMS.EnterpriseClient
+   Windows Forms App for staff and admin users.
+
+Both Windows Forms applications connect to the same live API. The clients do not connect directly to the database.
+
+------------------------------------------------------------
+
+# Login Information
+
+## Customer Side Login
+
+Open the project:
+
+CRMS.CustomerClient
+
+Run the program and use the following customer login:
+
+Username: customer1
+Password: Password123
+
+After logging in, the customer can:
+
+- View available cars
+- View car details
+- Create a rental booking
+- View their own bookings
+- Cancel a booking if it is still Pending
+
+The customer side should only be used with a Customer account.
+
+------------------------------------------------------------
+
+# Enterprise Side Login
+
+Open the project:
+
+CRMS.EnterpriseClient
+
+The Enterprise Client is used by Staff and Admin users.
+
+## Staff Login
+
+Username: staff1
+Password: Password123
+
+After logging in, Staff can:
+
+- View all bookings
+- Approve pending bookings
+- Reject pending bookings
+- Mark approved bookings as active
+- Mark active bookings as completed
+
+Staff users should not see car management tools or the user list.
+
+------------------------------------------------------------
+
+## Admin Login
+
+Username: admin1
+Password: Password123
+
+After logging in, Admin can do everything Staff can do, plus:
+
+- Add cars
+- Update cars
+- Delete cars
+- View all registered users
+
+Admin users have access to both booking management and car/user management.
+
+------------------------------------------------------------
+
+# Important Login Notes
+
+The Customer Client should be tested with:
+
+customer1 / Password123
+
+The Enterprise Client should be tested with:
+
+staff1 / Password123
+admin1 / Password123
+
+Do not use customer1 on the Enterprise Client because customers do not have permission to view all bookings.
+
+Do not use staff1 or admin1 as normal customer accounts because the customer application is designed for customer booking actions.
+
+------------------------------------------------------------
+
+# Live API
+
+The Windows Forms apps connect to the live hosted API:
+
+https://jds-tech4263-crms.runasp.net
+
+Swagger can be viewed at:
+
+https://jds-tech4263-crms.runasp.net/swagger/index.html
+
+If the application cannot log in, check that the API is published and that Swagger is working.
+
+------------------------------------------------------------
+
+# Basic Testing Order
+
+## Customer Test
+
+1. Run CRMS.CustomerClient.
+2. Log in as customer1.
+3. Load the car list.
+4. Select a car.
+5. Create a booking.
+6. View My Bookings.
+7. Confirm the booking appears as Pending.
+
+## Enterprise Test
+
+1. Run CRMS.EnterpriseClient.
+2. Log in as staff1 or admin1.
+3. Load all bookings.
+4. Select the customer's pending booking.
+5. Approve the booking.
+6. Mark the booking as Active.
+7. Mark the booking as Completed.
+
+## Admin Test
+
+1. Run CRMS.EnterpriseClient.
+2. Log in as admin1.
+3. Load cars.
+4. Add a new car.
+5. Update an existing car.
+6. Delete a car if needed.
+7. Load users.
+
+------------------------------------------------------------
+
+# Troubleshooting
+
+## Login Fails
+
+If login fails, check:
+
+- The API is published.
+- Swagger opens correctly.
+- The username and password are typed correctly.
+- The correct app is being used for the correct role.
+- The client API URL matches the live API URL.
+
+## Correct Role Usage
+
+Customer Client:
+customer1 only
+
+Enterprise Client:
+staff1 or admin1
+
+## Common Status Codes
+
+401 = Incorrect username or password
+403 = User does not have permission
+404 = API route was not found
+500 = Server or database error
+
+------------------------------------------------------------
+
+# Security Note
+
+The database connection string and publish profile should not be uploaded to GitHub. Keep passwords and server credentials out of the public repository.
